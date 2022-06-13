@@ -1,0 +1,64 @@
+body{
+    font-family: Roboto sans-serif;
+    color: #212121;
+}
+
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000;
+}
+a span{
+    color: #00f;
+}
+.navi:hover:focus{
+color: #2196F3;
+}
+
+.navi-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+button:hover:focus{
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+.map{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.info-footer{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #757575;
+}
