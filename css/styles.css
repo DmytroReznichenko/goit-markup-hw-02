@@ -1,8 +1,23 @@
+:root{
+    margin: 0;
+    padding: 0;
+    --body-font: "Roboto", sans-serif;
+    --main-weight: 700;
+    --secondary-weight: 500;
+    --article-weight: 400;
+    --main-color: #212121;
+    --secondary-color:#757575;
+}
 body{
-    font-family: Roboto, sans-serif;
-    color: #212121;
+    font-family: var(--body-font);
+}
+li{
+    list-style: none;
 }
 
+
+    /*Навігація*/
+    
 .logo{
     font-family: Raleway;
     font-weight: 700;
@@ -14,56 +29,115 @@ body{
 a span{
     color: #00f;
 }
-.navi:hover:focus{
-color: #2196F3;
-}
-
 .navi-text{
-    font-weight: 500;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: var(--secondary-weight);
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.17;
+}
+.navi-text:hover, .info:hover{
+    color: #2196F3;
 }
 
 .info{
-    font-weight: 500;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: var(--secondary-weight);
     font-size: 14px;
-    line-height: 1.14;
-    color: #757575;
+    line-height: 1.15;
 }
 
-button:hover:focus{
-    background-color: #2196F3;
-    cursor: pointer;
-}
-.text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-}
-h1{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+/*Унікальний контент сторінки*/
+.hero-box{
+    background-color: #2F303A;
 }
 
-p{
-    font-weight: 400;
+.hero{
+   font-weight: 900;
+   font-size: 44px;
+    line-height: 1.37;
+    color: #fff;
+}
+
+.hero-button{
+    font-weight: var(--main-weight);
     font-size: 16px;
     line-height: 1.88;
+    color: #fff;
+    background-color: #2196F3;
+    border-radius: 4px;
 }
-.map{
-    font-weight: 400;
+button:hover:focus{
+    cursor: pointer;
+}
+
+.quality{
+    font-weight: var(--main-weight);
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--main-color);
+}
+
+.quality-text{
+    font-weight: var(--article-weight);
     font-size: 14px;
     line-height: 1.71;
+    color: var(--secondary-color);  
+}
+
+h2{
+     font-weight: var(--main-weight);
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-color); 
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-name{
+    font-weight: var(--secondary-weight);
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--main-color);
+}
+
+.team-skill{
+    font-weight: var( --article-weight);
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--secondary-color);
+}
+
+footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.map{
+   font-weight: var( --article-weight);
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+    text-decoration: none; 
 }
 
 .info-footer{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.14;
-        color: #757575;
+    font-weight: var( --article-weight);
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF99;
+    text-decoration: none; 
 }
 
-li{
-    list-style: none;;
-}
+
