@@ -133,7 +133,7 @@ footer{
 }
 
 .info-footer{
-    font-weight: var( --article-weight);
+    font-weight: var(--article-weight);
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF99;
@@ -141,3 +141,33 @@ footer{
 }
 
 
+/*portfolio.html*/
+
+.filter-nav{
+    font-weight: var(--secondary-weight);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.63;
+    background-color: #F5F4FA;
+    color: var(--main-color); 
+}
+
+.filter-nav:hover{
+ cursor: pointer;
+ background-color: #2196F3;
+ color: #fff;
+}
+
+.list-work{
+    font-weight: var(--main-weight);
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--main-color);  
+}
+
+.list-name{
+    font-weight: var( --article-weight);
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-color); 
+}
