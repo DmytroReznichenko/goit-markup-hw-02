@@ -15,7 +15,6 @@ li{
     list-style: none;
 }
 
-
     /*Навігація*/
     
 .logo{
@@ -25,9 +24,10 @@ li{
     line-height: 1.2;
     color: #000;
     text-decoration: none;
+    letter-spacing: 0.3px;
 }
 a span{
-    color: #00f;
+    color: #2196F3;
 }
 .navi-text{
     color: var(--main-color);
@@ -35,10 +35,16 @@ a span{
     font-weight: var(--secondary-weight);
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.2px;
 }
-.navi-text:hover, .info:hover{
+    .navi-text:hover, .info:hover{
     color: #2196F3;
 }
+
+.current{
+color:  #2196F3;
+}
+
 
 .info{
     color: var(--secondary-color);
@@ -46,6 +52,7 @@ a span{
     font-weight: var(--secondary-weight);
     font-size: 14px;
     line-height: 1.15;
+    letter-spacing: 0.2px;
 }
 
 /*Унікальний контент сторінки*/
@@ -58,6 +65,7 @@ a span{
    font-size: 44px;
     line-height: 1.37;
     color: #fff;
+    letter-spacing: 0.6px;
 }
 
 .hero-button{
@@ -67,6 +75,7 @@ a span{
     color: #fff;
     background-color: #2196F3;
     border-radius: 4px;
+    letter-spacing: 0.6px;
 }
 button:hover:focus{
     cursor: pointer;
@@ -77,20 +86,24 @@ button:hover:focus{
     font-size: 14px;
     line-height: 1.17;
     color: var(--main-color);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
 }
 
 .quality-text{
     font-weight: var(--article-weight);
     font-size: 14px;
     line-height: 1.71;
-    color: var(--secondary-color);  
+    color: var(--secondary-color);
+    letter-spacing: 0.3px;  
 }
 
 h2{
      font-weight: var(--main-weight);
     font-size: 36px;
     line-height: 1.17;
-    color: var(--main-color); 
+    color: var(--main-color);
+    letter-spacing: 0.3px; 
 }
 
 .team{
@@ -102,6 +115,7 @@ h2{
     font-size: 16px;
     line-height: 1.17;
     color: var(--main-color);
+    letter-spacing: 0.3px;
 }
 
 .team-skill{
@@ -109,6 +123,7 @@ h2{
     font-size: 16px;
     line-height: 1.17;
     color: var(--secondary-color);
+    letter-spacing: 0.3px;
 }
 
 footer{
@@ -122,6 +137,7 @@ footer{
     line-height: 1.2;
     color: #fff;
     text-decoration: none;
+    letter-spacing: 0.3px;
 }
 
 .map{
@@ -129,7 +145,8 @@ footer{
     font-size: 14px;
     line-height: 1.71;
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
+    letter-spacing: 0.3px; 
 }
 
 .info-footer{
@@ -137,7 +154,9 @@ footer{
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF99;
-    text-decoration: none; 
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    font-style: normal; 
 }
 
 
@@ -149,7 +168,8 @@ footer{
     font-size: 16px;
     line-height: 1.63;
     background-color: #F5F4FA;
-    color: var(--main-color); 
+    color: var(--main-color);
+    letter-spacing: 0.3px; 
 }
 
 .filter-nav:hover{
@@ -162,12 +182,14 @@ footer{
     font-weight: var(--main-weight);
     font-size: 18px;
     line-height: 1.2;
-    color: var(--main-color);  
+    color: var(--main-color);
+    letter-spacing: 0.6px;  
 }
 
 .list-name{
     font-weight: var( --article-weight);
     font-size: 16px;
     line-height: 1.88;
-    color: var(--secondary-color); 
+    color: var(--secondary-color);
+    letter-spacing: 0.3px; 
 }
