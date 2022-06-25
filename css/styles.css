@@ -37,7 +37,7 @@ a span{
     line-height: 1.17;
     letter-spacing: 0.2px;
 }
-    .navi-text:hover, .info:hover{
+    .navi-text:hover, .info:hover, .info-footer:hover{
     color: #2196F3;
 }
 
@@ -66,6 +66,7 @@ color:  #2196F3;
     line-height: 1.37;
     color: #fff;
     letter-spacing: 0.6px;
+    text-transform: uppercase;
 }
 
 .hero-button{
@@ -146,7 +147,8 @@ footer{
     line-height: 1.71;
     color: #fff;
     text-decoration: none;
-    letter-spacing: 0.3px; 
+    letter-spacing: 0.3px;
+    font-style: normal;  
 }
 
 .info-footer{
